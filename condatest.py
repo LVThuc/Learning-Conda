@@ -8,7 +8,7 @@ def sqr(x):
 def double(x):
     return x*2
 
-def doublesquare(x=sqr, y=None):
+def doublesquare(x, y):
     return x(double(y))
 
-print(doublesquare(,3))
+print(doublesquare(sqr,2))
